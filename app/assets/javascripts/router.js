@@ -6,7 +6,7 @@ App.Router.reopen({
 });
 
 App.Router.map(function() {
-  this.route('home');
+  this.route('home', { path: '/'});
   this.route('history');
   this.route('stories');
   this.route('liberator');
