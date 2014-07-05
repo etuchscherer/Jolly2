@@ -6,5 +6,10 @@ App.Router.reopen({
 });
 
 App.Router.map(function() {
-  // this.resource('posts');
+  this.route('home');
+  this.route('history');
+  this.route('stories');
+  this.route('liberator');
+  this.route('about');
+  this.route('contact');
 });
