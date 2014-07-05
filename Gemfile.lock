@@ -48,6 +48,9 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
+    dotenv (0.11.1)
+      dotenv-deployment (~> 0.0.2)
+    dotenv-deployment (0.0.2)
     ember-data-source (0.14)
       ember-source
     ember-rails (0.14.1)
@@ -97,6 +100,11 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.0.4)
       sprockets-rails (~> 2.0.0)
+    rails_12factor (0.0.2)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.2)
+    rails_stdout_logging (0.0.3)
     railties (4.0.4)
       actionpack (= 4.0.4)
       activesupport (= 4.0.4)
@@ -142,6 +150,7 @@ DEPENDENCIES
   autoprefixer-rails
   bootstrap-sass (~> 3.2.0)
   coffee-rails (~> 4.0.0)
+  dotenv
   ember-rails
   ember-source
   emblem-rails
@@ -150,6 +159,7 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 4.0.4)
+  rails_12factor
   sass-rails (~> 4.0.2)
   sdoc
   uglifier (>= 1.3.0)
