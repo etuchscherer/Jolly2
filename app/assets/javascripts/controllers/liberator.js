@@ -1,3 +1,1 @@
-App.LiberatorController = Ember.Controller.extend({
-  subtitle: 'Hippes'
-});
+App.LiberatorController = Ember.Controller.extend();

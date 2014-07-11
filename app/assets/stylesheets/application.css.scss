@@ -12,3 +12,47 @@
  *= require_tree .
  */
 @import "bootstrap";
+
+// html, body {
+//   background-image: url(asset_path('bg.png'));
+//   background-repeat: no-repeat;
+//   background-position: bottom left;
+//   background-attachment: fixed;
+// }
+
+.one-sixth-width {
+  width: 16.667%;
+}
+
+.centered {
+  text-align: center;
+}
+
+.LegothicURW-Lig, .page-header, h3, h4 {
+  font-family: LegothicURW-Lig;
+  font-weight: normal;
+  font-style: normal;
+  // text-transform: uppercase;
+}
+
+.BellMT-SC {
+  font-family: BellMT-SC;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.home.jumbotron {
+  color: #eee;
+  // background: url(asset_path("JollyRogerLeft.png")) 5% 60% no-repeat,
+  //   url(asset_path("JollyRogerRight.png")) 95% 61% no-repeat;
+    // url(asset_path("JumbotronTexture.png"));
+  background-color: #222;
+}
+
+.no-left-padding {
+  padding-left: 0px;
+}
