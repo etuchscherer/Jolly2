@@ -1,6 +1,6 @@
 <h3 class="page-header">About the Jolly Rogers</h3>
 <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-8 well dark">
       <h3>Stations</h3>
       <table class="table table-bordered">
         <thead>
@@ -66,19 +66,16 @@
       </table>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4 well dark">
       <h3>Squadrons</h3>
-      <div class="well">
-        <ul class="unstyled">
-          <li>319th</li>
-          <li>320th</li>
-          <li>321st</li>
-          <li>400th</li>
-        </ul>
+      <div class="badge-container">
+        {{view App.BadgeView}}
       </div>
-
-      <h3>Commanders</h3>
-
     </div>
+
+    <div class="col-md-4">
+      <h3>Commanders</h3>
+    </div>
+
 
   </div>

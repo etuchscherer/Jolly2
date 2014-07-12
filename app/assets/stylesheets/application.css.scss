@@ -1,44 +1,44 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the top of the
- * compiled file, but it's generally better to create a new file per style scope.
- *
- *= require_self
- *= require_tree .
- */
 @import "bootstrap";
-
-// html, body {
-//   background-image: url(asset_path('bg.png'));
-//   background-repeat: no-repeat;
-//   background-position: bottom left;
-//   background-attachment: fixed;
-// }
 
 .one-sixth-width {
   width: 16.667%;
 }
 
-.centered {
-  text-align: center;
+.badge-content {
+  height: 220px;
+  width: 220px;
+  background-image: url(asset_path('BadgeSprite.png'));
+  background-repeat: no-repeat;
 }
 
-.LegothicURW-Lig, .page-header, h3, h4 {
-  font-family: LegothicURW-Lig;
-  font-weight: normal;
-  font-style: normal;
-  // text-transform: uppercase;
+.badge-content.asterperious {
+  background-position: -220px -220px;
+}
+
+.badge-content.whale-tail {
+  background-position: 0px -220px;
+}
+
+.badge-content.bombs-away {
+  background-position: -220px 0px;
+}
+
+.badge-content.black-pirates {
+  background-position: 0px 0px;
+}
+
+.badge-content p.highlight {
+  color: white;
 }
 
 .BellMT-SC {
   font-family: BellMT-SC;
   font-weight: normal;
   font-style: normal;
+}
+
+.centered {
+  text-align: center;
 }
 
 .full-width {
@@ -53,6 +53,18 @@
   background-color: #222;
 }
 
+.LegothicURW-Lig, .page-header, h3, h4 {
+  font-family: LegothicURW-Lig;
+  font-weight: normal;
+  font-style: normal;
+  // text-transform: uppercase;
+}
+
 .no-left-padding {
   padding-left: 0px;
+}
+
+.well.dark {
+  background-color: #222;
+  color: #CCC;
 }
