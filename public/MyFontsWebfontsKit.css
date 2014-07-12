@@ -1,0 +1,36 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2844626, 2014-07-12T04:20:38-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Legothic URW Light by URW++
+ * URL: http://www.myfonts.com/fonts/urw/legothic/urw-t-light/
+ * Copyright: Copyright 2010 URW++ Design &amp; Development Hamburg
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: Bell MT Regular Small Caps by Monotype 
+ * URL: http://www.myfonts.com/fonts/mti/bell-mt/regular-small-caps/
+ * Copyright: Digitized data copyright The Monotype Corporation 1991-1995. All rights reserved. Bell&#x00AE; is a trademark of The Monotype Corporation which may be registered in certain jurisdictions.
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2844626
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2b67d2");
+
+  
+@font-face {font-family: 'Legothic';font-weight: normal;font-style: normal;src: url('webfonts/2B67D2_0_0.eot');src: url('webfonts/2B67D2_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B67D2_0_0.woff') format('woff'),url('webfonts/2B67D2_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Bell';font-weight: normal;font-style: normal;src: url('webfonts/2B67D2_1_0.eot');src: url('webfonts/2B67D2_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B67D2_1_0.woff') format('woff'),url('webfonts/2B67D2_1_0.ttf') format('truetype');}
+ 
