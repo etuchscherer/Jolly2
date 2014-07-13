@@ -10,6 +10,11 @@ App.Router.map(function() {
   this.route('history');
   this.route('stories');
   this.route('liberator');
-  this.route('about');
+  this.resource('about', function() {
+    this.route('319');
+    this.route('320');
+    this.route('321');
+    this.route('400');
+  });
   this.route('contact');
 });

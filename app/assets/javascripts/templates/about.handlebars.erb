@@ -1,81 +1,15 @@
 <h3 class="page-header">About the Jolly Rogers</h3>
 <div class="row">
-    <div class="col-md-8 well dark">
-      <h3>Stations</h3>
-      <table class="table table-bordered">
-        <thead>
-          <tr>
-            <th>Date</th>
-            <th>Station</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>15 Apr 1942</td>
-            <td>Key Field, Miss</td>
-          </tr>
-          <tr>
-            <td>17 May 1942</td>
-            <td>Barksdale Field, La</td>
-          </tr>
-          <tr>
-            <td>21 Jun 1942</td>
-            <td>Greenville AAB, SC</td>
-          </tr>
-          <tr>
-            <td>18 Aug 1942</td>
-            <td>Ypsilante, Mich</td>
-          </tr>
-          <tr>
-            <td>12 Sep 1942</td>
-            <td>Hickam Field, TH</td>
-          </tr>
-          <tr>
-            <td>Nov 1942</td>
-            <td>Iron Range, Australia</td>
-          </tr>
-          <tr>
-            <td>10 Feb 1943</td>
-            <td>Port Moresby, New Guinea</td>
-          </tr>
-          <tr>
-            <td>Dec 1943</td>
-            <td>Dobodura, New Guinea</td>
-          </tr>
-          <tr>
-            <td>23 Feb 1944</td>
-            <td>Nadzab, New Guinea</td>
-          </tr>
-          <tr>
-            <td>10 Aug 1944</td>
-            <td>Biak</td>
-          </tr>
-          <tr>
-            <td>26 Jan 1945</td>
-            <td>San Jose, Mindoro</td>
-          </tr>
-          <tr>
-            <td>10 Aug 1945</td>
-            <td>Ie Shima</td>
-          </tr>
-          <tr>
-            <td>Dec 1945</td>
-            <td>Ft William McKinley, Luzon</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="col-md-4 well dark">
-      <h3>Squadrons</h3>
-      <div class="badge-container">
-        {{view App.BadgeView}}
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <h3>Commanders</h3>
-    </div>
-
-
+  <div class="col-md-2">
+    <ul class="nav nav-pills nav-stacked">
+      {{#link-to 'about.319' tagName='li'}}<a href="#">319th</a>{{/link-to}}
+      {{#link-to 'about.320' tagName='li'}}<a href="#">320th</a>{{/link-to}}
+      {{#link-to 'about.321' tagName='li'}}<a href="#">321st</a>{{/link-to}}
+      {{#link-to 'about.400' tagName='li'}}<a href="#">400th</a>{{/link-to}}
+    </ul>
   </div>
+
+  <div class="col-md-10">
+    {{outlet}}
+  </div>
+</div>
